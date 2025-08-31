@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Luckiest+Guy&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Luckiest+Guy&family=Pacifico&display=swap');
+
+.heroImg{
+    height: 60vh;
+    width: 100%;
+    /* position: absolute; */
+}
+.heroImg>img{
+    padding-top: 4rem;
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+.herodiscription>h2{
+      font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.herodiscription{
+    /* border: 2px solid black; */
+    position: absolute;
+    width: 60%;
+    left: 5%;
+}
+
+.heroPara{
+    font-size: 1.2rem;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border: 2px solid black;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width:1024px) {
+    .heroImg{
+    height: 90vh;
+    width: 100%;
+    /* position: absolute; */
+}
+.heroImg>img{
+    /* padding-top: 4rem; */
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+.herodiscription{
+
+    width: 80%;
+    left: 0%;
+    padding: 1rem;
+}
+
+}
+@media (max-width:720px) {
+    .heroImg{
+    height: 90vh;
+    width: 100%;
+    /* position: absolute; */
+}
+.heroImg>img{
+    /* padding-top: 4rem; */
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+.herodiscription{
+
+    position: absolute;
+    width: 100%;
+    left: 0%;
+}
+.container{
+   padding-top: 2rem;
+
+}
+}
+
+@media (max-width:480px) {
+    .heroImg{
+    height: 90vh;
+    width: 100%;
+
+}
+.heroImg>img{
+    height: 90vh;
+    width: 100%;
+
+}
+.herodiscription{
+    width: 100%;
+    left: 0%;
+}
+.container{
+   padding-top: 2rem;
+
+}
+
+
+}

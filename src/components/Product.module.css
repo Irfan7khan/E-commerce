@@ -1,0 +1,20 @@
+.IdContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 100vh;
+    padding: 5rem;
+    border: 2px solid black;
+}
+.fetchIdcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    /* width: 90%; */
+}
+.fetchImg{
+    width: 30rem;
+    height: 25rem;
+}
