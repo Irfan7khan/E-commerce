@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import { useState } from 'react';
 import Cards from './components/Cards';
 import ProductDetail from './components/ProductDetail';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/cards' element={<Cards />} />
         <Route path='/cardsDel/:id' element={<ProductDetail/>}/>
       </Routes>
+      <Footer/>
        
 
     </div>
