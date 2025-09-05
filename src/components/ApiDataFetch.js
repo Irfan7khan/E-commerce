@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Hero from './Hero'
 import { ADD } from '../redux/actions/action'
 import { NavLink } from 'react-router-dom';
+import Loader from './Loader';
 const ApiDataFetch = ({ search }) => {
     const dispatch = useDispatch()
     const [data, setData] = useState([])
@@ -87,8 +88,9 @@ const ApiDataFetch = ({ search }) => {
                                 </NavLink>
                             </div>
                         </div>
-                    )) : "Data Not Found..."
-                }
+                    )) :<Loader/>
+}
+                
             </div>
         </>
     )
